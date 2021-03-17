@@ -3,10 +3,10 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-def printxtimes(loopNum, firstName, middleName, lastName):
+def printxtimes(loopNum, firstName, middleName, lastName, streetAddress):
     for y in range(loopNum):
-        label = "Hi {} {} {} number {}."
-        print(label.format(firstName, middleName, lastName, y))
+        label = "Hi {} {} {} number {} lives on {} street."
+        print(label.format(firstName, middleName, lastName, y, streetAddress))
 
 
 # Press the green button in the gutter to run the script.
@@ -15,6 +15,7 @@ if __name__ == '__main__':
     firstName = '1'
     middleName = '2'
     lastName = '3'
-    printxtimes(loopNum, firstName, middleName, lastName)
+    streetAddress = "4"
+    printxtimes(loopNum, firstName, middleName, lastName, streetAddress)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
